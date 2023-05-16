@@ -18,7 +18,11 @@ msgstr ""
 "Language-Name: Español\n"
 "Domain: volto\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+<<<<<<< HEAD
 "X-Generator: Poedit 3.3.1\n"
+=======
+"X-Generator: Poedit 2.2.1\n"
+>>>>>>> ef858d3c (feat: Added Spanish support)
 
 #: components/ItaliaTheme/Header/HeaderSlim/ArLogin
 # defaultMessage: Accedi all'area personale
@@ -1083,11 +1087,14 @@ msgid "blocco_info"
 msgstr "Bloque de información"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: config/Blocks/ListingOptions/defaultOptions
 # defaultMessage: Colore di sfondo
 msgid "block_bg_color"
 msgstr "Color de fondo"
 
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 =======
 >>>>>>> ef858d3c (feat: Added Spanish support)
 #: components/ItaliaTheme/Blocks/Info/Sidebar
@@ -2136,11 +2143,14 @@ msgid "listing_event_recurrence_label"
 msgstr "Este evento tiene varias fechas: ver todas"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: config/Blocks/ListingOptions/defaultOptions
 # defaultMessage: Colore dell'elemento
 msgid "listing_items_color"
 msgstr "Color del elemento"
 
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 =======
 >>>>>>> ef858d3c (feat: Added Spanish support)
 #: components/ItaliaTheme/Blocks/VideoGallery/Block/ViewBlock
@@ -3240,6 +3250,7 @@ msgstr "Cierre del procedimiento"
 
 #: components/ItaliaTheme/Blocks/BandiSearch/Sidebar
 <<<<<<< HEAD
+<<<<<<< HEAD
 # defaultMessage: Data di pubblicazione
 msgid "sort_effective_date"
 msgstr "Fecha de publicación"
@@ -3250,6 +3261,8 @@ msgid "sort_modified_date"
 msgstr "Fecha de modificación"
 
 #: components/ItaliaTheme/Blocks/BandiSearch/Sidebar
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 =======
 >>>>>>> ef858d3c (feat: Added Spanish support)
 # defaultMessage: Ordina per
@@ -3464,20 +3477,26 @@ msgid "twitterAccounts_description"
 msgstr "Ingrese los nombres de las cuentas cuyas publicaciones desea ver, separados por comas. Por ejemplo, si desea mostrar tweets de Repubblica y Corriere della Sera, ingrese 'repubblica,Corriere'."
 
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
+<<<<<<< HEAD
 # defaultMessage: Error: Ci scusiamo per l'inconveniente, il server Twitter non risponde.
 msgid "twitter_error"
 msgstr "Error: Disculpe las molestias, el servidor de Twitter no responde."
 
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 # defaultMessage: Non c'è nessun post da mostrare.
 msgid "twitter_posts_no_results"
 msgstr "No hay publicación para mostrar"
 
+<<<<<<< HEAD
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
 # defaultMessage: Post non trovati.
 msgid "twitter_posts_not_found"
 msgstr "Publicaciones no encontradas."
 
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 #: components/ItaliaTheme/View/BandoView/BandoUfficioResponsabile
 # defaultMessage: Ufficio responsabile
 msgid "ufficio_responsabile"
