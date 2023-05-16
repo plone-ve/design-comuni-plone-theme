@@ -4,6 +4,7 @@
  */
 
 import React, { useEffect, useState } from 'react';
+import { defineMessages } from 'react-intl';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { UniversalLink } from '@plone/volto/components';
@@ -31,6 +32,17 @@ import {
 
 import { getDropdownMenuNavitems, getItemsByPath } from 'volto-dropdownmenu';
 
+const messages = defineMessages({
+  logoSubsiteAlt: {
+    id: 'Logo',
+    defaultMessage: 'Logo',
+  },
+  headerToggle: {
+    id: 'Toggle navigation',
+    defaultMessage: 'Toggle navigation',
+  },
+});
+
 const Navigation = ({ pathname }) => {
   const [collapseOpen, setCollapseOpen] = useState(false);
   const dispatch = useDispatch();
@@ -40,7 +52,7 @@ const Navigation = ({ pathname }) => {
     <figure className="icon">
       <img
         src={flattenToAppURL(subsite.subsite_logo.scales?.mini?.download)}
-        alt="Logo"
+        alt={intl.formatMessage(messages.logoSubsiteAlt)}
       />
     </figure>
   );
@@ -93,7 +105,7 @@ const Navigation = ({ pathname }) => {
           <HeaderToggler
             aria-controls="#it-navigation-collapse"
             aria-expanded={collapseOpen}
-            aria-label="Toggle navigation"
+            aria-label={intl.formatMessage(messages.headerToggle)}
             onClick={() => setCollapseOpen(!collapseOpen)}
           >
             <Icon icon="it-burger" />
