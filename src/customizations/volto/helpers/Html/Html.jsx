@@ -10,6 +10,7 @@
  */
 
 import React, { Component } from 'react';
+import { defineMessages } from 'react-intl';
 import PropTypes from 'prop-types';
 import Helmet from '@plone/volto/helpers/Helmet/Helmet';
 import serialize from 'serialize-javascript';
@@ -17,6 +18,13 @@ import { join } from 'lodash';
 import BodyClass from '@plone/volto/helpers/BodyClass/BodyClass';
 import { runtimeConfig } from '@plone/volto/runtime_config';
 import config from '@plone/volto/registry';
+
+const messages = defineMessages({
+  NavigationToolbar: {
+    id: 'navigation-toolbar',
+    defaultMessage: 'Toolbar',
+  },
+});
 
 const CRITICAL_CSS_TEMPLATE = `function alter() {
   document.querySelectorAll("head link[rel='prefetch']").forEach(function(el) { el.rel = 'stylesheet'});
@@ -175,7 +183,7 @@ class Html extends Component {
           ) : undefined}
         </head>
         <body className={bodyClass}>
-          <div role="navigation" aria-label="Toolbar" id="toolbar" />
+          <div role="navigation" aria-label={intl.formatMessage(messages.NavigationToolbar)} id="toolbar" />
           <div id="main" dangerouslySetInnerHTML={{ __html: markup }} />
           <div id="sidebar" />
           <script

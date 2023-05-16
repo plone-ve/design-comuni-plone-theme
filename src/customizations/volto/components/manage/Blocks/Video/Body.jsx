@@ -10,6 +10,7 @@
  */
 
 import React from 'react';
+import { defineMessages } from 'react-intl';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import { Embed, Message } from 'semantic-ui-react';
@@ -18,6 +19,14 @@ import { isInternalURL, getParentUrl } from '@plone/volto/helpers';
 import { videoUrlHelper } from 'design-comuni-plone-theme/helpers';
 import { ConditionalEmbed } from 'volto-gdpr-privacy';
 import { FontAwesomeIcon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+
+const messages = defineMessages({
+  LoadPlayVideo: {
+    id: 'load-play-video',
+    defaultMessage: 'Load and Play video',
+  },
+});
+
 import config from '@plone/volto/registry';
 
 /**
@@ -61,7 +70,7 @@ const Body = ({ data, isEditMode }) => {
         className="icon-play"
         role="button"
         tabIndex={0}
-        title="Load and Play video"
+        title={intl.formatMessage(messages.LoadPlayVideo)}
       >
         <FontAwesomeIcon icon={['fas', 'play']} />
       </div>
