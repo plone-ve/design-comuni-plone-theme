@@ -5,7 +5,11 @@ msgstr ""
 "Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-09 11:45-0400\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2023-06-04 22:25-0400\n"
+=======
+"PO-Revision-Date: 2023-05-16 02:30-0400\n"
+>>>>>>> ef858d3c (feat: Added Spanish support)
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language: es\n"
 "Language-Team: ES <LL@li.org>\n"
@@ -1082,11 +1086,14 @@ msgstr "Bloque de alerta"
 msgid "blocco_info"
 msgstr "Bloque de información"
 
+<<<<<<< HEAD
 #: config/Blocks/ListingOptions/defaultOptions
 # defaultMessage: Colore di sfondo
 msgid "block_bg_color"
 msgstr "Color de fondo"
 
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 #: components/ItaliaTheme/Blocks/Info/Sidebar
 # defaultMessage: Colore
 msgid "border_color"
@@ -2132,11 +2139,14 @@ msgstr "Enlaces útiles"
 msgid "listing_event_recurrence_label"
 msgstr "Este evento tiene varias fechas: ver todas"
 
+<<<<<<< HEAD
 #: config/Blocks/ListingOptions/defaultOptions
 # defaultMessage: Colore dell'elemento
 msgid "listing_items_color"
 msgstr "Color del elemento"
 
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 #: components/ItaliaTheme/Blocks/VideoGallery/Block/ViewBlock
 #: components/ItaliaTheme/View/Commons/EmbeddedVideo
 # defaultMessage: Premi Invio per caricare il video, poi premi Tab per navigare sul video.
@@ -3233,6 +3243,7 @@ msgid "sort_chiusura_procedimento_bando"
 msgstr "Cierre del procedimiento"
 
 #: components/ItaliaTheme/Blocks/BandiSearch/Sidebar
+<<<<<<< HEAD
 # defaultMessage: Data di pubblicazione
 msgid "sort_effective_date"
 msgstr "Fecha de publicación"
@@ -3243,6 +3254,8 @@ msgid "sort_modified_date"
 msgstr "Fecha de modificación"
 
 #: components/ItaliaTheme/Blocks/BandiSearch/Sidebar
+=======
+>>>>>>> ef858d3c (feat: Added Spanish support)
 # defaultMessage: Ordina per
 msgid "sort_on"
 msgstr "Ordenar en"
