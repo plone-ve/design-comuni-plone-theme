@@ -12,6 +12,18 @@ import galleryPauseSVG from '@plone/volto/icons/pause.svg';
 import galleryFullScreenSVG from '@plone/volto/icons/fullscreen.svg';
 import galleryBackDownSVG from '@plone/volto/icons/back-down.svg';
 import config from '@plone/volto/registry';
+import { defineMessages } from 'react-intl';
+
+const messages = defineMessages({
+  PlayPauseSlideshowButton: {
+    id: 'play-pause-slideshow-button',
+    defaultMessage: 'Play or Pause Slideshow',
+  },
+  OpenFullscreenButton: {
+    id: 'open-fullscreen-button',
+    defaultMessage: 'Open Fullscreen',
+  },
+});
 
 const ImageGallery = loadable(() => import('react-image-gallery'));
 
@@ -43,7 +55,7 @@ const renderPlayPauseButton = (onClick, isPlaying) => (
     type="button"
     className="image-gallery-icon image-gallery-play-button basic primary"
     onClick={onClick}
-    aria-label="Play or Pause Slideshow"
+    aria-label={intl.formatMessage(messages.PlayPauseSlideshowButton)}
   >
     {isPlaying ? (
       <Icon name={galleryPauseSVG} size="48px" />
@@ -59,7 +71,7 @@ const renderFullscreenButton = (onClick, isFullscreen) => {
       type="button"
       className="image-gallery-icon image-gallery-fullscreen-button primary basic"
       onClick={onClick}
-      aria-label="Open Fullscreen"
+      aria-label={intl.formatMessage(messages.OpenFullscreenButton)}
     >
       {isFullscreen ? (
         <Icon name={galleryBackDownSVG} size="48px" />

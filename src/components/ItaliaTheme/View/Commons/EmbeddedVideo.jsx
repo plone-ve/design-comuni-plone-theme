@@ -11,6 +11,14 @@ const messages = defineMessages({
     defaultMessage:
       'Premi Invio per caricare il video, poi premi Tab per navigare sul video.',
   },
+  downloadPlayVideo: {
+    id: 'downloadPlayVideo',
+    defaultMessage: 'Download and Play video',
+  },
+  embedVideo: {
+    id: 'embedVideo',
+    defaultMessage: 'YouTube Video {id}',
+  },
 });
 
 const EmbeddedVideo = ({ video_url, title, id }) => {
@@ -40,7 +48,7 @@ const EmbeddedVideo = ({ video_url, title, id }) => {
         className="icon-play"
         role="button"
         tabIndex={0}
-        title="Download and Play video"
+        title={intl.formatMessage(messages.downloadPlayVideo)}
       >
         <FontAwesomeIcon icon={['fas', 'play']} />
       </div>
@@ -60,7 +68,7 @@ const EmbeddedVideo = ({ video_url, title, id }) => {
       <ConditionalEmbed url={video_url} key={'embedvideo' + id}>
         <Embed
           id={video_id}
-          title={title || `YouTube Video ${id}`}
+          title={title || intl.formatMessage(messages.embedVideo, { id: `${id}` })}
           source="youtube"
           {...embedSettings}
         />

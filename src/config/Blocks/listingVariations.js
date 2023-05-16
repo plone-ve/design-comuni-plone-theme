@@ -61,12 +61,84 @@ import {
 } from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
 
 import { addLighthouseField, cloneBlock } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
+import { defineMessages } from 'react-intl';
+
+const messages = defineMessages({
+  simple_card: {
+    id: 'Card semplice',
+    defaultMessage: 'Card semplice',
+  },
+  card_with_image_template: {
+    id: 'Card con immagine',
+    defaultMessage: 'Card con immagine',
+  },
+  in_evidence_template: {
+    id: 'In evidenza',
+    defaultMessage: 'In evidenza',
+  },
+  content_in_evidence_template: {
+    id: 'Contenuto in evidenza',
+    defaultMessage: 'Contenuto in evidenza',
+  },
+  ribbon_card_template: {
+    id: 'Card con nastro',
+    defaultMessage: 'Card con nastro',
+  },
+  card_slide_up_text_template: {
+    id: 'Card con testo animato',
+    defaultMessage: 'Card con testo animato',
+  },
+  quares_image_template: {
+    id: 'Quadratoni con immagine',
+    defaultMessage: 'Quadratoni con immagine',
+  },
+  map_template: {
+    id: 'Mappa',
+    defaultMessage: 'Mappa',
+  },
+  small_block_links_template: {
+    id: 'Blocco link solo immagini',
+    defaultMessage: 'Blocco link solo immagini',
+  },
+  complete_block_links_template: {
+    id: 'Blocco link completo',
+    defaultMessage: 'Blocco link completo',
+  },
+  photogallery: {
+    id: 'Photogallery',
+    defaultMessage: 'Photogallery',
+  },
+  slider: {
+    id: 'Slider',
+    defaultMessage: 'Slider',
+  },
+  grid_gallery_template: {
+    id: 'Gallery a griglia',
+    defaultMessage: 'Gallery a griglia',
+  },
+  bandi_in_evidence_template: {
+    id: 'Bandi',
+    defaultMessage: 'Bandi',
+  },
+  simple_list_template: {
+    id: 'Lista semplice',
+    defaultMessage: 'Lista semplice',
+  },
+  // amministrazione_trasparente_tables_template: {
+  //   id: 'Tabelle Amministrazione Trasparente',
+  //   defaultMessage: 'Tabelle Amministrazione Trasparente',
+  // },
+  // template_label: {
+  //   id: 'Template label',
+  //   defaultMessage: 'Template label',
+  // },
+});
 
 const italiaListingVariations = [
   {
     id: 'simpleCard',
     isDefault: true,
-    title: 'Card semplice',
+    title: intl.formatMessage(messages.simple_card),
     template: SimpleCardTemplate,
     schemaEnhancer: ({ schema, formData, intl }) => {
       addSimpleCardTemplateOptions(schema, formData, intl);
@@ -77,7 +149,7 @@ const italiaListingVariations = [
   {
     id: 'cardWithImageTemplate',
     isDefault: false,
-    title: 'Card con immagine',
+    title: intl.formatMessage(messages.card_with_image_template),
     template: CardWithImageTemplate,
     skeleton: CardWithImageTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -89,7 +161,7 @@ const italiaListingVariations = [
   {
     id: 'inEvidenceTemplate',
     isDefault: false,
-    title: 'In evidenza',
+    title: intl.formatMessage(messages.in_evidence_template),
     template: InEvidenceTemplate,
     skeleton: InEvidenceTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -101,7 +173,7 @@ const italiaListingVariations = [
   {
     id: 'contentInEvidenceTemplate',
     isDefault: false,
-    title: 'Contenuto in evidenza',
+    title: intl.formatMessage(messages.content_in_evidence_template),
     template: ContentInEvidenceTemplate,
     skeleton: ContentInEvidenceTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -114,7 +186,7 @@ const italiaListingVariations = [
   {
     id: 'ribbonCardTemplate',
     isDefault: false,
-    title: 'Card con nastro',
+    title: intl.formatMessage(messages.ribbon_card_template),
     template: RibbonCardTemplate,
     skeleton: RibbonCardTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -126,7 +198,7 @@ const italiaListingVariations = [
   {
     id: 'cardSlideUpTextTemplate',
     isDefault: false,
-    title: 'Card con testo animato',
+    title: intl.formatMessage(messages.card_slide_up_text_template),
     template: CardWithSlideUpTextTemplate,
     skeleton: CardWithSlideUpTextTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -138,7 +210,7 @@ const italiaListingVariations = [
   {
     id: 'quaresImageTemplate',
     isDefault: false,
-    title: 'Quadratoni con immagine',
+    title: intl.formatMessage(messages.quares_image_template),
     template: SquaresImageTemplate,
     skeleton: SquaresImageTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -151,7 +223,7 @@ const italiaListingVariations = [
   {
     id: 'mapTemplate',
     isDefault: false,
-    title: 'Mappa',
+    title: intl.formatMessage(messages.map_template),
     template: MapTemplate,
     skeleton: MapTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -164,7 +236,7 @@ const italiaListingVariations = [
   {
     id: 'smallBlockLinksTemplate',
     isDefault: false,
-    title: 'Blocco link solo immagini',
+    title: intl.formatMessage(messages.small_block_links_template),
     template: SmallBlockLinksTemplate,
     skeleton: SmallBlockLinksTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -176,7 +248,7 @@ const italiaListingVariations = [
   {
     id: 'completeBlockLinksTemplate',
     isDefault: false,
-    title: 'Blocco link completo',
+    title: intl.formatMessage(messages.complete_block_links_template),
     template: CompleteBlockLinksTemplate,
     skeleton: CompleteBlockLinksTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -188,7 +260,7 @@ const italiaListingVariations = [
   {
     id: 'photogallery',
     isDefault: false,
-    title: 'Photogallery',
+    title: intl.formatMessage(messages.photogallery),
     template: PhotogalleryTemplate,
     skeleton: PhotogalleryTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -201,7 +273,7 @@ const italiaListingVariations = [
   {
     id: 'slider',
     isDefault: false,
-    title: 'Slider',
+    title: intl.formatMessage(messages.slider),
     template: SliderTemplate,
     skeleton: SliderTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -214,7 +286,7 @@ const italiaListingVariations = [
   {
     id: 'gridGalleryTemplate',
     isDefault: false,
-    title: 'Gallery a griglia',
+    title: intl.formatMessage(messages.grid_gallery_template),
     template: GridGalleryTemplate,
     skeleton: GridGalleryTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -226,7 +298,7 @@ const italiaListingVariations = [
   {
     id: 'bandiInEvidenceTemplate',
     isDefault: false,
-    title: 'Bandi',
+    title: intl.formatMessage(messages.bandi_in_evidence_template),
     template: BandiInEvidenceTemplate,
     skeleton: BandiInEvidenceTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -239,7 +311,7 @@ const italiaListingVariations = [
   {
     id: 'simpleListTemplate',
     isDefault: false,
-    title: 'Lista semplice',
+    title: intl.formatMessage(messages.simple_list_template),
     template: SimpleListTemplate,
     skeleton: SimpleListTemplateSkeleton,
     schemaEnhancer: ({ schema, formData, intl }) => {
@@ -252,7 +324,7 @@ const italiaListingVariations = [
   //  {
   //    id: 'amministrazioneTrasparenteTablesTemplate',
   //    isDefault: false,
-  //    title: 'Tabelle Amministrazione Trasparente',
+  //    title: intl.formatMessage(messages.amministrazione_trasparente_tables_template),
   //    fullobjects: 1,
   //    template: AmministrazioneTrasparenteTablesTemplate,
   //    skeleton: AmministrazioneTrasparenteTablesTemplateSkeleton,
@@ -265,7 +337,7 @@ const italiaListingVariations = [
   // ****** Example: ******
   // { id:template_id,
   //   isDefault: false,
-  //   title: 'Template label',
+  //   title: intl.formatMessage(messages.template_label),
   //   template: TemplateComponent,
   //   skeleton: TemplateSkeletonComponent,
   //   schemaEnhancer: ({ schema, formData, intl }) => {
