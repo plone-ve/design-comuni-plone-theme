@@ -28,7 +28,7 @@ msgstr "Accede a tu área personal"
 #: config/Blocks/blocks
 # defaultMessage: Accordion
 msgid "Accordion"
-msgstr ""
+msgstr "Acordeón"
 
 #: components/ItaliaTheme/Blocks/Accordion/Edit
 #: components/ItaliaTheme/Blocks/ContactsBlock/Edit
@@ -42,7 +42,7 @@ msgstr "Añadir elemento"
 #: config/Blocks/blocks
 # defaultMessage: Alert
 msgid "Alert"
-msgstr ""
+msgstr "Alerta"
 
 #: components/ItaliaTheme/Blocks/VideoGallery/Sidebar
 # defaultMessage: Allow Externals
@@ -52,7 +52,7 @@ msgstr "Aceptar URL externa para incrustar"
 #: config/Blocks/blocks
 # defaultMessage: Argomenti in evidenza
 msgid "Argomenti in evidenza"
-msgstr ""
+msgstr "Temas destacados"
 
 #: config/Blocks/ListingOptions/simpleCardTemplate
 # defaultMessage: Aspetto
@@ -67,7 +67,7 @@ msgstr "¡Advertencia!"
 #: config/Blocks/listingVariations
 # defaultMessage: Bandi
 msgid "Bandi"
-msgstr ""
+msgstr "Otros"
 
 #: components/ItaliaTheme/View/Commons/PageHeader/PageHeaderBando
 # defaultMessage: Bando
@@ -77,27 +77,27 @@ msgstr "Aviso"
 #: config/Blocks/blocks
 # defaultMessage: Blocchi con icone
 msgid "Blocchi con icone"
-msgstr ""
+msgstr "Bloques con iconos"
 
 #: config/Blocks/blocks
 # defaultMessage: Blocco CTA
 msgid "Blocco CTA"
-msgstr ""
+msgstr "Bloque de llamada a la acción"
 
 #: config/Blocks/blocks
 # defaultMessage: Blocco Numeri
 msgid "Blocco Numeri"
-msgstr ""
+msgstr "Bloque de números"
 
 #: config/Blocks/listingVariations
 # defaultMessage: Blocco link completo
 msgid "Blocco link completo"
-msgstr ""
+msgstr "Bloque de enlace completo"
 
 #: config/Blocks/listingVariations
 # defaultMessage: Blocco link solo immagini
 msgid "Blocco link solo immagini"
-msgstr ""
+msgstr "Bloque de enlace de solo imagen"
 
 #: components/ItaliaTheme/Blocks/NumbersBlock/Edit
 # defaultMessage: Titolo del blocco...
@@ -112,23 +112,23 @@ msgstr "Estilo de Bloque"
 #: config/Blocks/blocks
 # defaultMessage: Calendario
 msgid "Calendario"
-msgstr ""
+msgstr "Calendario"
 
 #: config/Blocks/blocks
 #: config/Blocks/listingVariations
 # defaultMessage: Card con immagine
 msgid "Card con immagine"
-msgstr ""
+msgstr "Tarjeta con imagen"
 
 #: config/Blocks/listingVariations
 # defaultMessage: Card con nastro
 msgid "Card con nastro"
-msgstr ""
+msgstr "Tarjeta con cinta"
 
 #: config/Blocks/listingVariations
 # defaultMessage: Card con testo animato
 msgid "Card con testo animato"
-msgstr ""
+msgstr "Tarjeta con texto animado"
 
 #: components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateDefault
 # defaultMessage: Vedi
@@ -139,7 +139,7 @@ msgstr "Ver"
 #: config/Blocks/listingVariations
 # defaultMessage: Card semplice
 msgid "Card semplice"
-msgstr ""
+msgstr "Tarjeta sencilla"
 
 #: components/ItaliaTheme/Blocks/TextCard/CardWithImage/Sidebar
 # defaultMessage: Allinea immagine a destra
@@ -218,17 +218,17 @@ msgstr "Contenido"
 #: config/Blocks/listingVariations
 # defaultMessage: Contenuto in evidenza
 msgid "Contenuto in evidenza"
-msgstr ""
+msgstr "Contenido destacado"
 
 #: config/Blocks/blocks
 # defaultMessage: Contenuto in primo piano
 msgid "Contenuto in primo piano"
-msgstr ""
+msgstr "Contenido en primer plano"
 
 #: config/Blocks/blocks
 # defaultMessage: Count Down
 msgid "Count Down"
-msgstr ""
+msgstr "Cuenta regresiva"
 
 #: components/ItaliaTheme/View/Commons/Dates
 # defaultMessage: Date aggiuntive
@@ -275,7 +275,7 @@ msgstr "Tamaño de mapa"
 #: components/ItaliaTheme/View/Commons/TrasparenzaFields
 # defaultMessage: Download
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: config/RichTextEditor/Plugins/AnchorPlugin/components/LinkButton/AddLinkForm
 # defaultMessage: Enter URL or select an item
@@ -306,7 +306,7 @@ msgstr "Filtrar"
 #: config/Blocks/listingVariations
 # defaultMessage: Gallery a griglia
 msgid "Gallery a griglia"
-msgstr ""
+msgstr "Galería de cuadrículas"
 
 #: components/ItaliaTheme/View/Commons/SkipToMainContent
 # defaultMessage: Vai al contenuto
@@ -357,7 +357,7 @@ msgstr "Descripción de Ayuda para ID Lighthouse"
 #: components/ItaliaTheme/manage/Widgets/SubFooterConfigurationForm
 # defaultMessage: ID lighthouse
 msgid "ID lighthouse"
-msgstr ""
+msgstr "ID Lighthouse"
 
 #: components/ItaliaTheme/Blocks/NumbersBlock/Edit
 # defaultMessage: Seleziona le icone dalla barra a lato
@@ -377,7 +377,7 @@ msgstr "Imagen"
 #: components/ItaliaTheme/View/Commons/Events
 # defaultMessage: Immagine
 msgid "Immagine"
-msgstr ""
+msgstr "Imagen"
 
 #: components/ItaliaTheme/Footer/FooterSmall
 # defaultMessage: Impostazioni cookie
@@ -387,7 +387,7 @@ msgstr "Configuración de cookies"
 #: config/Blocks/listingVariations
 # defaultMessage: In evidenza
 msgid "In evidenza"
-msgstr ""
+msgstr "Destacado"
 
 #: components/ItaliaTheme/View/PageView/PageView
 # defaultMessage: In questa sezione
@@ -397,7 +397,7 @@ msgstr "En esta sección"
 #: config/Blocks/blocks
 # defaultMessage: Informazioni
 msgid "Informazioni"
-msgstr ""
+msgstr "Información"
 
 #: components/ItaliaTheme/Blocks/CountDown/Edit
 # defaultMessage: Inserisci il testo…
@@ -452,7 +452,7 @@ msgstr "Texto para el enlace a otra cosa"
 #: config/Blocks/listingVariations
 # defaultMessage: Lista semplice
 msgid "Lista semplice"
-msgstr ""
+msgstr "Lista sencilla"
 
 #: components/ItaliaTheme/Blocks/Calendar/schema
 # defaultMessage: Listing
@@ -477,7 +477,7 @@ msgstr "Lugar"
 #: config/Blocks/listingVariations
 # defaultMessage: Mappa
 msgid "Mappa"
-msgstr ""
+msgstr "Mapa"
 
 #: components/ItaliaTheme/Blocks/TextCard/CardWithImage/Sidebar
 # defaultMessage: Medio
@@ -571,7 +571,7 @@ msgstr "Camino"
 #: config/Blocks/listingVariations
 # defaultMessage: Photogallery
 msgid "Photogallery"
-msgstr ""
+msgstr "Galería de fotos"
 
 #: components/ItaliaTheme/Blocks/TextCard/CardWithImage/Sidebar
 # defaultMessage: Piccolo
@@ -592,7 +592,7 @@ msgstr "Pagina anterior"
 #: config/Blocks/listingVariations
 # defaultMessage: Quadratoni con immagine
 msgid "Quadratoni con immagine"
-msgstr ""
+msgstr "Cuadrados con imagen"
 
 #: components/ItaliaTheme/Blocks/Calendar/schema
 # defaultMessage: Query
@@ -608,22 +608,22 @@ msgstr "Requerido"
 #: config/Blocks/blocks
 # defaultMessage: Ricerca Unità Organizzative
 msgid "Ricerca Unità Organizzative"
-msgstr ""
+msgstr "Buscar Unidades organizativas"
 
 #: config/Blocks/blocks
 # defaultMessage: Ricerca bandi
 msgid "Ricerca bandi"
-msgstr ""
+msgstr "Buscar licitaciones"
 
 #: config/Blocks/blocks
 # defaultMessage: Ricerca eventi
 msgid "Ricerca eventi"
-msgstr ""
+msgstr "Buscar eventos"
 
 #: config/Blocks/blocks
 # defaultMessage: Ricerca nelle sezioni
 msgid "Ricerca nelle sezioni"
-msgstr ""
+msgstr "Buscar en secciones"
 
 #: components/ItaliaTheme/manage/Widgets/FileWidget
 # defaultMessage: Rimuovi il file
@@ -711,12 +711,12 @@ msgstr "Administrador del sitio"
 #: config/Blocks/listingVariations
 # defaultMessage: Slider
 msgid "Slider"
-msgstr ""
+msgstr "Imagen deslizante"
 
 #: components/ItaliaTheme/Search/Search
 # defaultMessage: Sono occorsi degli errori
 msgid "Sono occorsi degli errori"
-msgstr "Se produjeron algunos errores."
+msgstr "Se produjeron algunos errores"
 
 #: components/ItaliaTheme/Footer/FooterNewsletterSubscribe
 # defaultMessage: Iscriviti
@@ -785,7 +785,7 @@ msgstr "Publicaciones de Twitter"
 #: config/Blocks/blocks
 # defaultMessage: Twitter posts
 msgid "Twitter posts"
-msgstr ""
+msgstr "Publicaciones en Twitter"
 
 #: components/ItaliaTheme/Blocks/CTABlock/Block
 #: components/ItaliaTheme/Blocks/TextCard/CardWithImage/Block
@@ -871,7 +871,7 @@ msgstr "Vídeo"
 #: config/Blocks/blocks
 # defaultMessage: Video Gallery
 msgid "Video Gallery"
-msgstr ""
+msgstr "Galería de Vídeos"
 
 #: components/ItaliaTheme/Blocks/VideoGallery/Sidebar
 # defaultMessage: Video Gallery
@@ -1062,7 +1062,7 @@ msgstr "Use Arriba y Abajo para elegir opciones"
 #: components/SelectInput/SelectInput
 # defaultMessage: Annulla
 msgid "ay11_select cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: components/SelectInput/SelectInput
 # defaultMessage: deselezionata
@@ -1213,7 +1213,7 @@ msgstr "Activar"
 #: components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate
 # defaultMessage: Scadenza partecipazione
 msgid "bando_scadenza"
-msgstr "Fecha de expiración:"
+msgstr "Plazo de participación"
 
 #: components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate
 #: components/ItaliaTheme/View/Commons/PageHeader/PageHeaderBando
@@ -1277,7 +1277,7 @@ msgstr "Color"
 #: components/ItaliaTheme/View/Commons/SideMenu
 # defaultMessage: Toggle navigation
 msgid "button-toggler-toggle-navigation"
-msgstr ""
+msgstr "Navegación alterna"
 
 #: components/ItaliaTheme/Blocks/Calendar/ListingSidebar
 # defaultMessage: Calendario
@@ -1386,7 +1386,7 @@ msgstr "Cerca"
 #: components/Collapse
 # defaultMessage: Chiudi menu
 msgid "close-menu"
-msgstr ""
+msgstr "Cerrar menú"
 
 #: components/ItaliaTheme/Header/HeaderSearch/SearchModal
 # defaultMessage: Chiudi cerca
@@ -1630,7 +1630,7 @@ msgstr "Sí"
 #: components/ItaliaTheme/View/Commons/PageHeader/PageHeaderEventDates
 # defaultMessage: dal {dateStart} fino a conclusione
 msgid "dal {dateStart} fino a conclusione"
-msgstr ""
+msgstr "desde {dateStart} hasta su finalización"
 
 #: components/ItaliaTheme/View/PersonaView/PersonaRuolo
 # defaultMessage: Ha fatto parte dell'organizzazione comunale fino al
@@ -1690,7 +1690,7 @@ msgstr "Tecla Escape"
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Interagisci con il calendario e seleziona le date di inizio e/o fine
 msgid "dateRangePicker_focusStartDate"
-msgstr "Interactúa con el calendario y agrega la fecha de check-in para tu viaje."
+msgstr "Interactuar con el calendario y seleccionar fechas de inicio y/o finalización"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Chiudi il pannello dei tasti rapidi
@@ -1705,12 +1705,12 @@ msgstr "Teclas de inicio y final"
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Via avanti per passare al mese successivo
 msgid "dateRangePicker_jumpToNextMonth"
-msgstr "Avance para cambiar al próximo mes."
+msgstr "Avance para cambiar al próximo mes"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Torna indietro per passare al mese precedente
 msgid "dateRangePicker_jumpToPrevMonth"
-msgstr "Mueva hacia atrás para cambiar al mes anterior."
+msgstr "Mueva hacia atrás para cambiar al mes anterior"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Naviga indietro per interagire con il calendario e selezionare una data. Premi il pulsante 'punto interrogativo' per conoscere i tasti rapidi per modificare le date.
@@ -1740,7 +1740,7 @@ msgstr "Muévase hacia atrás (izquierda) y hacia adelante (derecha) por un día
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Cambia mese
 msgid "dateRangePicker_moveFocusByOneMonth"
-msgstr "Cambia de mes."
+msgstr "Cambia de mes"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Spostati indietro (su) e avanti (giu) di una settimana.
@@ -1750,7 +1750,7 @@ msgstr "Muévete hacia atrás (arriba) y hacia adelante (abajo) una semana."
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Vai al primo o all'ultimo giorno della settimana
 msgid "dateRangePicker_moveFocustoStartAndEndOfWeek"
-msgstr "Ir al primer o último día de una semana."
+msgstr "Ir al primer o último día de una semana"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Apri questo pannello.
@@ -1770,7 +1770,7 @@ msgstr "Signo de interrogación"
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Torna al campo di inserimento data
 msgid "dateRangePicker_returnFocusToInput"
-msgstr "Regrese al campo de entrada de fecha."
+msgstr "Regrese al campo de entrada de fecha"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Seleziona date
@@ -1780,12 +1780,12 @@ msgstr "selector de fechas"
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Seleziona la data evidenziata
 msgid "dateRangePicker_selectFocusedDate"
-msgstr "Seleccione la fecha en foco."
+msgstr "Seleccione la fecha en foco"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Apri il pannello dei tasti rapidi
 msgid "dateRangePicker_showKeyboardShortcutsPanel"
-msgstr "Abra el panel de métodos abreviados de teclado."
+msgstr "Abra el panel de métodos abreviados de teclado"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/DateFilter
 # defaultMessage: Tasti freccia su e giu
@@ -1933,7 +1933,7 @@ msgstr "Descargar"
 #: components/ItaliaTheme/View/Commons/EmbeddedVideo
 # defaultMessage: Download and Play video
 msgid "downloadPlayVideo"
-msgstr ""
+msgstr "Descargar y reproducir vídeo"
 
 #: components/ItaliaTheme/manage/Widgets/MenuConfigurationForm
 # defaultMessage: Additional classes
@@ -2039,7 +2039,7 @@ msgstr "Correo electrónico"
 #: components/ItaliaTheme/View/Commons/EmbeddedVideo
 # defaultMessage: YouTube Video {id}
 msgid "embedVideo"
-msgstr ""
+msgstr "{id} Vídeo de YouTube"
 
 #: components/ItaliaTheme/Blocks/HighlightedContent/Edit
 # defaultMessage: Please select an item in the sidebar in order to show it here
@@ -2316,7 +2316,7 @@ msgstr "Enlace"
 #: components/ItaliaTheme/Header/HeaderCenter
 # defaultMessage: homepage
 msgid "link-subsite-homepage-title"
-msgstr ""
+msgstr "página principal"
 
 #: components/ItaliaTheme/Blocks/Accordion/Sidebar
 #: components/ItaliaTheme/Blocks/ContactsBlock/Sidebar
@@ -2391,7 +2391,7 @@ msgstr "Iniciar sesión con Spid"
 #: components/ItaliaTheme/Header/HeaderCenter
 # defaultMessage: Logo
 msgid "logo-subsite-alt"
-msgstr ""
+msgstr "Logotipo"
 
 #: components/ItaliaTheme/View/NewsItemView/NewsItemLuoghiCorrelati
 # defaultMessage: Luoghi
@@ -2406,7 +2406,7 @@ msgstr "Lugar"
 #: components/ItaliaTheme/Footer/FooterNewsletterSubscribe
 # defaultMessage: mail@example.com
 msgid "mail@example.com"
-msgstr ""
+msgstr "su.correo@ejemplo.com"
 
 #: components/ItaliaTheme/View/Commons/Actions
 # defaultMessage: Invia
@@ -2540,7 +2540,7 @@ msgstr "Bloque de números"
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
 # defaultMessage: Replies
 msgid "numbers_replies"
-msgstr ""
+msgstr "Respuestas"
 
 #: components/ItaliaTheme/View/Commons/PageHeader/PageHeaderNewsItem
 # defaultMessage: Numero del comunicato stampa
@@ -3287,7 +3287,7 @@ msgstr "Cosas"
 #: components/ItaliaTheme/View/ServizioView/ServizioStato
 # defaultMessage: Il servizio non è attivo
 msgid "service_not_active"
-msgstr "El servicio no está activo."
+msgstr "El servicio no está activo"
 
 #: components/ItaliaTheme/View/Commons/RelatedItems
 # defaultMessage: Servizi
@@ -3364,7 +3364,7 @@ msgstr "Abre la imagen en popup"
 #: config/Blocks/ListingOptions/sliderTemplate
 # defaultMessage: Mostra il titolo dell'immagine
 msgid "show_image_title"
-msgstr "Mostrar el título de la imagen."
+msgstr "Mostrar el título de la imagen"
 
 #: config/Blocks/ListingOptions/mapTemplate
 # defaultMessage: Mostra la mappa a tutta larghezza
@@ -3612,7 +3612,7 @@ msgstr "Condiciones del procedimiento"
 #: config/RichTextEditor/ToolbarButtons/TextSizeButton
 # defaultMessage: Dimensione del testo
 msgid "text-size-button"
-msgstr ""
+msgstr "Tamano del texto"
 
 #: components/ItaliaTheme/Blocks/Common/SearchFilters/TextFilter
 # defaultMessage: Inserisci un valore
@@ -3690,7 +3690,7 @@ msgstr "Ingrese los nombres de las cuentas cuyas publicaciones desea ver, separa
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
 # defaultMessage: Likes
 msgid "twitter_likes"
-msgstr ""
+msgstr "Me gusta"
 
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
 # defaultMessage: Non c'è nessun post da mostrare.
@@ -3700,7 +3700,7 @@ msgstr "No hay publicación para mostrar"
 #: components/ItaliaTheme/Blocks/TwitterPosts/Body
 # defaultMessage: Retweets
 msgid "twitter_retweets"
-msgstr ""
+msgstr "Retweets"
 
 #: components/ItaliaTheme/View/BandoView/BandoUfficioResponsabile
 # defaultMessage: Ufficio responsabile
