@@ -159,7 +159,7 @@ const messages = defineMessages({
   },
 });
 
-const italiaBlocks = {
+const italiaBlocks = ({intl}) => ({
   highlitedContent: {
     id: 'highlitedContent',
     title: intl.formatMessage(messages.highlited_content),
@@ -487,7 +487,7 @@ const italiaBlocks = {
     },
     sidebarTab: 1,
   },
-};
+});
 
 const getItaliaBlocks = (config) => {
   delete config.blocks.blocksConfig.search;

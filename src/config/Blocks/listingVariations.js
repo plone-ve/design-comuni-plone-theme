@@ -64,7 +64,7 @@ import {
   addLighthouseField,
   cloneBlock,
 } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
-import { defineMessages } from 'react-intl';
+import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({
   simple_card: {
@@ -137,7 +137,7 @@ const messages = defineMessages({
   // },
 });
 
-const italiaListingVariations = [
+const italiaListingVariations = ({intl}) => [
   {
     id: 'simpleCard',
     isDefault: true,
