@@ -49,7 +49,11 @@ const TextSizeButton = (props) => {
   return createInlineStyleButton({
     style: 'TEXT_LARGER',
     children: (
-      <Icon name={formatSVG} size="1.25em" title={intl.formatMessage(messages.TextSizeButton)} />
+      <Icon
+        name={formatSVG}
+        size="1.25em"
+        title={intl.formatMessage(messages.TextSizeButton)}
+      />
     ),
   });
 };

@@ -183,7 +183,11 @@ class Html extends Component {
           ) : undefined}
         </head>
         <body className={bodyClass}>
-          <div role="navigation" aria-label={intl.formatMessage(messages.NavigationToolbar)} id="toolbar" />
+          <div
+            role="navigation"
+            aria-label={intl.formatMessage(messages.NavigationToolbar)}
+            id="toolbar"
+          />
           <div id="main" dangerouslySetInnerHTML={{ __html: markup }} />
           <div id="sidebar" />
           <script

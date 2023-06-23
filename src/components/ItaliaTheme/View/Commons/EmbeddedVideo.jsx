@@ -68,7 +68,9 @@ const EmbeddedVideo = ({ video_url, title, id }) => {
       <ConditionalEmbed url={video_url} key={'embedvideo' + id}>
         <Embed
           id={video_id}
-          title={title || intl.formatMessage(messages.embedVideo, { id: `${id}` })}
+          title={
+            title || intl.formatMessage(messages.embedVideo, { id: `${id}` })
+          }
           source="youtube"
           {...embedSettings}
         />

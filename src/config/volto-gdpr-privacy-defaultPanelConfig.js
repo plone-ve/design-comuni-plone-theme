@@ -16,7 +16,7 @@ const defaultPanelConfig = {
     es: {
       title: 'Nosotros usamos cookies',
       description:
-        "Este sitio utiliza cookies técnicas de navegación y sesión para garantizar un mejor servicio de navegación en el sitio, y cookies analíticas para recopilar información sobre el uso del sitio por parte de los usuarios. También utiliza cookies de perfil de usuario con fines estadísticos. Para las cookies de creación de perfiles, puede decidir habilitarlas o no haciendo clic en el botón \"Configuración\". Para obtener más información sobre cómo deshabilitar las cookies o habilitar solo ciertas cookies, consulte nuestra <a href='/es/privacy-policy'>Política de Cookies</a>.",
+        'Este sitio utiliza cookies técnicas de navegación y sesión para garantizar un mejor servicio de navegación en el sitio, y cookies analíticas para recopilar información sobre el uso del sitio por parte de los usuarios. También utiliza cookies de perfil de usuario con fines estadísticos. Para las cookies de creación de perfiles, puede decidir habilitarlas o no haciendo clic en el botón "Configuración". Para obtener más información sobre cómo deshabilitar las cookies o habilitar solo ciertas cookies, consulte nuestra <a href=\'/es/privacy-policy\'>Política de Cookies</a>.',
     },
     fr: {
       title: 'We use cookies',
@@ -122,7 +122,7 @@ const defaultPanelConfig = {
       es: {
         title: 'Cookies de perfil',
         description:
-          "El sitio utiliza cookies de perfil para analizar el comportamiento y las elecciones del usuario con el fin de proponer contenido específico que se corresponda con el perfil del usuario.",
+          'El sitio utiliza cookies de perfil para analizar el comportamiento y las elecciones del usuario con el fin de proponer contenido específico que se corresponda con el perfil del usuario.',
       },
       fr: {
         title: 'Cookies de profilage',

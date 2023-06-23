@@ -158,7 +158,10 @@ const ClearIndicator = (props) => {
       {...restInnerProps}
       ref={ref}
     >
-      <div style={{ padding: '0px 5px' }} title={intl.formatMessage(messages.ay11_for_cancel)}>
+      <div
+        style={{ padding: '0px 5px' }}
+        title={intl.formatMessage(messages.ay11_for_cancel)}
+      >
         <Icon icon="it-close" style={{ ariaHidden: true }} />
       </div>
     </div>

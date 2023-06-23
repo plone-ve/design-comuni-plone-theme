@@ -21,15 +21,15 @@ const messages = defineMessages({
   },
   Replies: {
     id: 'numbers_replies',
-    defaultMessage: "Replies",
+    defaultMessage: 'Replies',
   },
   Retweets: {
     id: 'twitter_retweets',
-    defaultMessage: "Retweets",
+    defaultMessage: 'Retweets',
   },
   Likes: {
     id: 'twitter_likes',
-    defaultMessage: "Likes",
+    defaultMessage: 'Likes',
   },
 });
 
@@ -141,15 +141,24 @@ const Body = ({ data, isEditMode, reactSlick }) => {
                     .format('HH:mm - DD MMM YYYY')}
                 </div>
                 <div className="numbers">
-                  <div className="number reply" title={intl.formatMessage(messages.Replies)}>
+                  <div
+                    className="number reply"
+                    title={intl.formatMessage(messages.Replies)}
+                  >
                     <Icon icon="reply" />
                     {tweet.reply_count > 0 && tweet.reply_count}
                   </div>
-                  <div className="number retweet" title={intl.formatMessage(messages.Retweets)}>
+                  <div
+                    className="number retweet"
+                    title={intl.formatMessage(messages.Retweets)}
+                  >
                     <Icon icon="retweet" />{' '}
                     {tweet.retweet_count > 0 && tweet.retweet_count}
                   </div>
-                  <div className="number like" title={intl.formatMessage(messages.Likes)}>
+                  <div
+                    className="number like"
+                    title={intl.formatMessage(messages.Likes)}
+                  >
                     <Icon icon="heart" />
                     {tweet.like_count > 0 && tweet.like_count}
                   </div>

@@ -5,7 +5,7 @@ import React from 'react';
 import cx from 'classnames';
 
 export default function Checkbox({ indeterminate = false, ...otherProps }) {
-  const setCheckboxRef = checkbox => {
+  const setCheckboxRef = (checkbox) => {
     if (checkbox) {
       checkbox.indeterminate = indeterminate;
     }

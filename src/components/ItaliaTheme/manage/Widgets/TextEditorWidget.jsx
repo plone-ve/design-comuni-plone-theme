@@ -196,10 +196,10 @@ class TextEditorWidgetComponent extends Component {
               ) {
                 const selectionState = this.state.editorState.getSelection();
                 const anchorKey = selectionState.getAnchorKey();
-                const currentContent = this.state.editorState.getCurrentContent();
-                const currentContentBlock = currentContent.getBlockForKey(
-                  anchorKey,
-                );
+                const currentContent =
+                  this.state.editorState.getCurrentContent();
+                const currentContentBlock =
+                  currentContent.getBlockForKey(anchorKey);
                 const blockType = currentContentBlock.getType();
                 if (!includes(this.draftConfig.listBlockTypes, blockType)) {
                   this.props.onSelectBlock(

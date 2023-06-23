@@ -61,7 +61,9 @@ const PageHeaderEventDates = ({ content, moment, rrule }) => {
         !openEnd &&
         `${Moment(content.start).format('DD-MM-Y')}`}
       {openEnd &&
-        intl.formatMessage(messages.dateStart, { dateStart: `${Moment(content.start).format('DD-MM-Y')}` })}
+        intl.formatMessage(messages.dateStart, {
+          dateStart: `${Moment(content.start).format('DD-MM-Y')}`,
+        })}
       {eventRecurrenceText && (
         <div className="recurrence small">{eventRecurrenceText}</div>
       )}

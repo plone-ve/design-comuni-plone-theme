@@ -60,7 +60,10 @@ import {
   addPhotogalleryTemplateOptions,
 } from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
 
-import { addLighthouseField, cloneBlock } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
+import {
+  addLighthouseField,
+  cloneBlock,
+} from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
 import { defineMessages } from 'react-intl';
 
 const messages = defineMessages({
